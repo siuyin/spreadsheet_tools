@@ -9,9 +9,13 @@ func TestCtoI(t *testing.T) {
 	}
 	dat := []d{
 		d{"B", 1},
+		d{"h", 7},
 		d{"AA", 26},
 		d{"Ab", 27},
+		d{"ah", 33},
+		d{"aj", 35},
 		d{"ba", 52},
+		d{"bv", 73},
 		d{"ca", 78},
 		d{"cb", 79},
 		d{"ce", 82},
