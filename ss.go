@@ -6,6 +6,9 @@ package ss
 
 import "strings"
 
+// CtoI converts spreadsheet column references to zero-based indexes.
+// Eg CtoI("A") returns 0 and CtoI("Aa") returns 26. The column reference
+// string is case-insensitive.
 func CtoI(col string) int {
 	col = strings.ToLower(col)
 	l := len(col)
