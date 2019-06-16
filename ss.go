@@ -21,9 +21,6 @@ func CtoI(col string) int {
 }
 func pow26(l int) int {
 	m := 1
-	if l == 0 {
-		return m
-	}
 	for i := 0; i < l; i++ {
 		m = m * 26
 	}
