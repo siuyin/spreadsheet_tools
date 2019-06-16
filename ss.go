@@ -1,4 +1,4 @@
-// package ss provides translation from spreadsheet column references
+// Package ss provides translation from spreadsheet column references
 // to zero-based indexes.
 //
 // Eg. A => 0, B => 1, Z => 25, AA => 26 etc.
